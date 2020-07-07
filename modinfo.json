@@ -1,39 +1,30 @@
 {
-    "author": "ematarkus",
-    "build": "113909",
-    "context": "client",
-    "date": "2019-11-15",
-    "dependencies": [
-        "com.wondible.pa.live_game_input_refactor"
-    ],
-    "description": "Commands are queued by default, use shift to drop previous queue. Alternative to wondibles mod, that queues for move and command, both. Shared forum thread for that topic for now.",
-    "display_name": "Ematarkus Queue By Default",
-    "forum": "https://forums.uberent.com/threads/rel-queue-by-default.70616/",
-    "id": "ematarkus_queue_by_default",
     "identifier": "de.ematarkus.pa.lgir.queue_by_default",
+    "context": "client",
+    "version": "1.0.0",
+    "date": "2020-07-07",
+    "author": "ematarkus",
+    "build": "114673",
+    "display_name": "Ematarkus Queue By Default",
+    "description": "Commands and build commands are queued by default. Use shift to start a new queue. Alternative to wondibles mod. Contains some of wondibles code.",
+    "category": [
+        "ui",
+        "lgir",
+        "input"
+    ],
+    "forum": "https://forums.planetaryannihilation.com/threads/client-lgir-ematarkus-queue-by-default.73488/",
     "priority": 100,
     "scenes": {
         "live_game": [
             "coui://ui/mods/ematarkus_queue_by_default/ematarkus_queue_by_default.js"
         ]
     },
-    "signature": "not yet implemented",
-    "version": "1.0.0",
-    "searchable": [
-        "queue",
-        "default",
-        "ui",
-		"shift",
-		"ctrl",
-        "ematarkus"
-    ],
-    "sort": "queue by default (ematarkus)",
-    "authors": [
-        "ematarkus",
-		"wondible"
+    "dependencies": [
+        "com.wondible.pa.live_game_input_refactor"
     ],
     "conflicts": [
 		"com.wondible.pa.queue_by_default",
 		"com.wondible.pa.fast_click"
-	]
+	],
+    "signature": "not yet implemented"
 }
