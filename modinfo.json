@@ -1,0 +1,39 @@
+{
+    "author": "ematarkus",
+    "build": "113909",
+    "context": "client",
+    "date": "2019-11-15",
+    "dependencies": [
+        "com.wondible.pa.live_game_input_refactor"
+    ],
+    "description": "Commands are queued by default, use shift to drop previous queue. Alternative to wondibles mod, that queues for move and command, both. Shared forum thread for that topic for now.",
+    "display_name": "Ematarkus Queue By Default",
+    "forum": "https://forums.uberent.com/threads/rel-queue-by-default.70616/",
+    "id": "ematarkus_queue_by_default",
+    "identifier": "de.ematarkus.pa.lgir.queue_by_default",
+    "priority": 100,
+    "scenes": {
+        "live_game": [
+            "coui://ui/mods/ematarkus_queue_by_default/ematarkus_queue_by_default.js"
+        ]
+    },
+    "signature": "not yet implemented",
+    "version": "1.0.0",
+    "searchable": [
+        "queue",
+        "default",
+        "ui",
+		"shift",
+		"ctrl",
+        "ematarkus"
+    ],
+    "sort": "queue by default (ematarkus)",
+    "authors": [
+        "ematarkus",
+		"wondible"
+    ],
+    "conflicts": [
+		"com.wondible.pa.queue_by_default",
+		"com.wondible.pa.fast_click"
+	]
+}
