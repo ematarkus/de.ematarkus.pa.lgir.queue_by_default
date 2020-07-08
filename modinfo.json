@@ -10,7 +10,8 @@
     "category": [
         "ui",
         "lgir",
-        "input"
+        "input",
+        "titans"
     ],
     "forum": "https://forums.planetaryannihilation.com/threads/client-lgir-ematarkus-queue-by-default.73488/",
     "priority": 100,
@@ -22,9 +23,6 @@
     "dependencies": [
         "com.wondible.pa.live_game_input_refactor"
     ],
-    "conflicts": [
-		"com.wondible.pa.queue_by_default",
-		"com.wondible.pa.fast_click"
-	],
+    "titansOnly": true,
     "signature": "not yet implemented"
 }
